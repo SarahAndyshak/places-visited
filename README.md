@@ -1,29 +1,50 @@
-# _{Application Name}_
+# Places You've Been
 
-#### By _**{List of contributors}**_
+#### By Sarah Andyshak and Eliot Gronstal
 
-#### _{Brief description of application}_
+####  A website where you can keep track of all the places you've been!
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* JavaScript
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This is a website where you can keep track of all the places you've been made during Week 4 of Epicodus Coding School. Each destination is an object with multiple properties, like location, landmarks, time of year, notes, etc. Those properties are displayed when a user clicks on a place's name.
+
+## TDD
+
+Describe: function PlacesList()
+* Test One
+Test: "It should create an index where we can add information about different places."
+Code: 
+function PlacesList() 
+Expected Output: No Output Expected/Undefined.
+
+* Test Two
+Test: ""
+Code: 
+function PlacesList() 
+Expected Output: No Output Expected/Undefined.
+
+
+
+Describe: function Destination()
+* Test One
+Test: "It should create a place and add information"
+Code: 
+let Destination1 = new Destinaton("Portland", ["Powell's", "Multnomah Falls"], "winter", "Fun!")
+function Destination(location, landmarks, timeOfYear, notes)
+Expected Output: ("Portland", ["Powell's", "Multnomah Falls"], "winter", "Fun!")
+
 
 ## Setup/Installation Requirements
 
 * _This is a great place_
 * _to list setup instructions_
 * _in a simple_
-* _easy-to-understand_
-* _format_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* Please reach out to Sarah at sarah.andyshak@gmail.com or Eliot at eliot.lauren@gmail.com with any questions or concerns.
 
 ## Known Bugs
 
@@ -32,6 +53,6 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+MIT
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) 2023 Sarah Andyshak and Eliot Gronstal
