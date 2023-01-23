@@ -21,21 +21,30 @@ Code:
 function PlacesList() 
 Expected Output: No Output Expected/Undefined.
 
+<!-- function PlacesList() {
+  this.destinations = {};
+  }-->
+
 * Test Two
-Test: ""
+Test: "This test will add a method to create a new Destination within PlacesList."
 Code: 
-function PlacesList() 
+function PlacesList() {
+PlacesList.prototype.addDestination = function(destination)
 Expected Output: No Output Expected/Undefined.
 
+<!-- PlacesList.prototype.addDestination = function(destination) {
+  this.destinations[destination.location] = destintation;
+} -->
 
 
 Describe: function Destination()
 * Test One
 Test: "It should create a place and add information"
 Code: 
-let Destination1 = new Destinaton("Portland", ["Powell's", "Multnomah Falls"], "winter", "Fun!")
+let testDestination = new Destination("portland", ["powells", "multnomah falls"], "winter", "fun!");
 function Destination(location, landmarks, timeOfYear, notes)
-Expected Output: ("Portland", ["Powell's", "Multnomah Falls"], "winter", "Fun!")
+Expected Output: returns: testDestination;
+Destination {location: 'portland', landmarks: Array(2), timeOfYear: 'winter', notes: 'fun!'}
 
 
 ## Setup/Installation Requirements
