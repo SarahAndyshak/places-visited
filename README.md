@@ -59,16 +59,13 @@ Destination {location: 'portland', landmarks: Array(2), timeOfYear: 'winter', n
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
+* _Not currently available, no index.html created at this time._
 
 * Please reach out to Sarah at sarah.andyshak@gmail.com or Eliot at eliot.lauren@gmail.com with any questions or concerns.
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _As of 2:16pm on 23 January 2023, no known bugs._
 
 ## License
 
