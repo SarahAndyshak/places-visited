@@ -30,11 +30,21 @@ Test: "This test will add a method to create a new Destination within PlacesList
 Code: 
 function PlacesList() {
 PlacesList.prototype.addDestination = function(destination)
-Expected Output: No Output Expected/Undefined.
+let destination = new Destination("Portland", ["Powells", "Multnomah Falls"], "winter", "fun!");
+let destination2 = new Destination("Bend", ["Mt. Bachelor", "Pilot Butte"], "winter", "snowy!");
+Expected Output: placesList;
+PlacesList {destinations: {…}}
+
 
 <!-- PlacesList.prototype.addDestination = function(destination) {
   this.destinations[destination.location] = destintation;
 } -->
+
+* Test Three
+Test: ""
+Code: 
+function PlacesList() 
+Expected Output:
 
 
 Describe: function Destination()
